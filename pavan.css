@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
+  .icon a{
+    transition: transform 0.5s;
+    font-size: 20px;
+    color: white;
+  }
+  .icon a:hover{
+    color: rgb(240, 15, 90);
+  }
+  .navbar{
+   padding: 25px;
+   width: 20%;
+ padding-top: 50px;
+    color: white;
+    background-color:gray;
+    margin-left: 10px;
+    position: fixed;
+  }
+  nav ul{
+    gap: 2em;
+    list-style: none;
+    padding-top: 55px;
+    padding-left: 30px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+  }
+  nav ul li a:hover{
+    color:red;
+  }
+
+  .navbar img{
+   border: 2px solid white;
+   border-radius: 50%;
+  }
+  .home{
+   text-align: center;
+  }
+  .home h1{
+    color: red;
+  }
+
+  #home{
+   display:flex;
+   
+  }
+  #loki{
+    margin-left:20em ;
+  }
+   #home .text1{
+   height: 730px;
+   width: 114%;
+color: white;
+  }
+  .text1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text1 img{
+    border: 2px solid red ;
+    border-radius: 50%;
+    margin-top: 10em;
+
+  }
+  .text {
+    padding-top: 20em;
+    padding-left: 3em;
+  }
+  .h1{
+   font-size: 40px;
+   color: red;
+  }
+  marquee{
+ position: absolute; 
+ transform: translateX(10px);
+ width: 15%;
+ }
+ /*----------About----------*/
+ 
+ #about{
+  width: 114%;
+  padding: 30px;
+padding-top: 70px;
+ }
+ #about:hover{
+  
+background-color: whitesmoke;
+color: black;
+ }
+ #about h1{
+   color: red;
+   padding: 10px;
+   text-shadow: 2px 2px 1px white;
+   text-align: center;
+   font-size: 40px;
+  }
+  #about h2{
+    color: red;
+    padding: 10px;
+    text-shadow: 2px 2px 1px white;
+    text-align: center;
+    font-size: 30px;
+
+   }
+ 
+  #about p{
+    text-align: center;
+
+  }
+ .info img{
+  background: transparent;
+ }
+ .info{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 40px;
+ }
+ .dob{
+   display: flex;
+   gap: 50px;
+ }
+ .dob h3{
+   font-size: 17px;
+ }
+ .front{
+   padding: 30px;
+ }
+ b{
+   color: red;
+   font-size: 22px;
+ }
+ .fa-solid.fa-angle-right{
+   padding-top: 20px;
+ }
+ #about p{
+   font-size: 15px;
+   font-weight: 700;
+ }
+ #about button{
+  width: 80px;
+  height: 30px;
+  font-size: 15px; 
+  background-color: white;
+  color: red;
+  border-radius: 10px;
+}
+ .btn{
+  text-align: center;
+  margin-top: 30px;
+}
+#about button:hover{
+  background-color: red;
+  color: black;
+}
+
+ /*----------skills----------*/
+ #skills{
+   width: 114%;
+text-align: center;
+padding-top: 80px;
+
+ }
+ #skills h1{
+   color: red;
+   padding: 10px;
+   text-shadow: 2px 2px 1px white;
+   font-size: 40px;
+
+}
+  #status{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+  }
+  .deepu p{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 7px solid red;
+    text-align: center;
+    position: absolute;
+    margin-top: -6em;
+    margin-left: 10em;
+    padding-top: 1.5em;
+    background-color: rgb(12, 196, 216);
+    font-weight: 2000px;
+    opacity: 0.5;
+    color: red;
+
+  }
+  .deepu a{
+    font-size: 150px;
+  }
+   /*----------certificates----------*/
+
+      #certificate{
+        width: 114%;
+        text-align: center;
+        padding-top: 140px;
+          }
+    #certificate h1{
+      color: red;
+      padding: 10px;
+      text-shadow: 2px 2px 1px white;
+      font-size: 40px;
+  
+     }
+     #certificate .cert-list{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+     }
+  .cert-info{
+      position: absolute;
+      margin-top: -303.5px;
+      color:black;
+      text-align: center;
+      padding-top: 100px;
+      opacity: 0;
+      font-size: 20px;
+      width: 300px;
+      height: 300px;
+  backdrop-filter: blur(5px);
+      transition: 1s;
+      margin-left: 30px;
+  }
+  .cert-info h4{
+    color: red;
+    font-size: 30px;
+  }
+  .cert-info:hover{
+      opacity: 1;
+      transform: scale(1);
+  }
+  .cert-icon{
+    display: flex;
+    margin-left: 113px;
+    gap: 20px;
+    padding: 10px;
+}
+.cert-icon a{
+    color: red;
+    font-size: 35px;
+}
+
+ /*----------portfolio----------*/
+ #projects{
+  width: 114%;
+  text-align: center;
+  padding-top: 140px;
+}
+  #projects h1{
+    color: red;
+    padding: 10px;
+    text-shadow: 2px 2px 1px white;
+    font-size: 40px;
+
+   }
+   #projects .port-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+   }
+.port-info{
+    position: absolute;
+    margin-top: -303.5px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    opacity: 0;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+backdrop-filter: blur(5px);
+    transition: 1s;
+    margin-left: 30px;
+}
+.port-info h4{
+  color: red;
+  font-size: 30px;
+}
+.port-icon{
+    display: flex;
+    margin-left: 113px;
+    gap: 20px;
+    padding: 10px;
+}
+.port-icon a{
+    color: red;
+    font-size: 35px;
+}
+.btnn{
+  text-align: center;
+}
+.port-info:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+#projects button{
+    width: 80px;
+    height: 30px;
+    font-size: 15px; 
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+}
+#projects button:hover{
+    background-color: red;
+    color: black;
+}
+ /*----------contact----------*/
+ #contacts{
+  width: 114%;
+  text-align: center;
+
+  }
+  #queries{
+    padding: 50px;
+   }
+   .lokesh{
+    display: flex;
+    margin-top: 30px;
+ justify-content: center;
+
+ gap: 20px;
+   }
+ .lo h1{
+    text-align: center;
+    text-shadow: 2px 2px 1px white;
+    color: red;
+    font-size: 40px;
+
+ }
+  .raj1{
+    display: flex;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+    box-shadow:10px 5px 15px 10px rgba(29, 28, 28, 0.25); 
+    margin-bottom: 15px;
+    background-color: rgb(247, 251, 255);
+ 
+ }
+ .raj .fa-solid{
+ font-size: 25px;
+ margin-right:9px ;
+ color: black;
+ }
+ .raj h3{
+    color: blue;
+    margin-right: 5px;
+ }
+ .raj p{
+  color: black;
+ }
+ .lo1{
+     padding: 40px;
+  
+ }
+ .raj1:hover{
+    transform: scale(1.2);
+    background-color: chartreuse;
+ }
+ .lo2{
+   color: white;
+    height: 500px;
+    width: 480px;
+    background:url(55.jpg);
+    padding: 40px;
+    box-shadow:10px 5px 15px 10px rgba(41, 40, 40, 0.25); 
+    border: 1px solid gray;
+  
+ }
+ .main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ .user-details:nth-child(2n){
+    justify-content: end;
+   
+  }
+  .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom:15px ;
+  }
+  .lokii1{
+    display: flex;
+    gap: 10px;
+  }
+  .lokii1 input{
+    height: 50px;
+    width: 190px;
+    color: black;
+    border: 0.7px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+    box-shadow:10px 5px 15px 10px rgba(29, 28, 28, 0.25); 
+ 
+ }
+ .lokii1 input:hover{
+    transform: scale(1.2);
+    background-color: chartreuse;
+ 
+ }
+ .lo2 button{
+    height:40px ;
+    width: 200px;
+    border-radius: 50px;
+    background-color: orange;
+ }
+ .lo2 button:hover{
+    background-color: coral;
+    box-shadow: 0 0 5px coral,
+    0 0 12px coral,
+    0 0 20px rgb(233, 181, 25),
+    0 0 1502px rgb(231, 158, 12);
+ 
+ }
+ 
+  .btn input{
+    height:40px ;
+    width: 200px;
+    border-radius: 50px;
+    background-color: orange;
+ 
+  }
+  .btn input:hover{
+    background-color: coral;
+ box-shadow: 0 0 5px coral,
+ 0 0 12px coral,
+ 0 0 20px coral,
+ 0 0 1502px coral;
+  }
+  
+  
