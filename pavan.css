@@ -22,8 +22,7 @@
  padding-top: 50px;
     color: white;
     background-color:gray;
-    margin-left: 10px;
-    position: fixed;
+     position: fixed;
   }
   nav ul{
     gap: 2em;
