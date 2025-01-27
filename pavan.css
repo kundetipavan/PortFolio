@@ -450,3 +450,101 @@ backdrop-filter: blur(5px);
   }
   
   
+ /*----------education page----------*/
+ #ed{
+  display: flex;
+  margin: 40px;
+  justify-content: space-evenly;
+  text-align: center;
+ 
+}
+.h2{
+    padding: 15px;
+    font-size: 45px;
+    color: red;
+    text-align: center;
+}
+.edu,.exp,.ski{
+  border: 1px solid rgb(145, 141, 141);
+  padding: 25px;
+}
+.edu h1,.exp h1,.ski h1{
+  font-weight: 900;
+  font-size: 30px;
+  padding: 10px;
+  color: red;
+}
+.edu h2,.exp h2,.ski h2{
+  font-weight: 700;
+  font-size: 25px;
+  padding: 15px;
+  color: red;
+}
+.edu h3,.exp h3,.ski h3{
+  font-weight: 500;
+  font-size: 22px;
+  padding: 5px;
+}
+.edu span,.exp span,.ski span{
+  font-size: 45px;
+  padding: 5px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+
+ /*----------projects page----------*/
+
+ #projectss{
+  text-align: center;
+}
+  #projectss h1{
+    color: red;
+    text-shadow: 2px 2px 1px white;
+    font-size: 40px;
+    margin-top: 3%;
+
+   }
+   #projectss .ports-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+   }
+.ports-info{
+    position: absolute;
+    margin-top: -305px;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    opacity: 0;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+backdrop-filter: blur(5px);
+    transition: 1s;
+    margin-left: 1.5%;
+     gap: 3em;
+}
+.ports-icon{
+    display: flex;
+    margin-left: 125px;
+    gap: 20px;
+}
+.ports-info h4{
+  color: red;
+  font-size: 30px;
+}
+
+.ports-icon a{
+    color: red;
+    font-size: 35px;
+}
+
+.ports-info:hover{
+    opacity: 1;
+    transform: scale(1);
+    width: 302px;
+    height: 302px;
+
+}
+
