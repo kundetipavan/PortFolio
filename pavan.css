@@ -6,8 +6,7 @@
   }
   body{
     color: black;
-    background-color: whitesmoke;
-
+ 
    }
   .icon a{
     transition: transform 0.5s;
@@ -94,12 +93,7 @@ color: black;
   width: 114%;
  padding-top: 70px;
   }
- #about:hover{
-  
-background-color: whitesmoke;
-color: black;
- }
- #about h1{
+  #about h1{
    color: blue;
    padding: 10px;
    text-shadow: 2px 2px 1px white;
@@ -208,7 +202,50 @@ padding-top: 80px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 50px;
+      margin-left: 7%;
      }
+
+
+     /* From Uiverse.io by Sashank02 */ 
+.card {
+  padding: 20px;
+  width: 330px;
+  min-height: 370px;
+  border-radius: 20px;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 6px #dadada,
+               -5px -5px 6px #f6f6f6;
+  transition: 0.4s;
+}
+
+.card:hover {
+  translate: 0 -10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2e54a7;
+  margin: 15px 0 0 10px;
+}
+
+ 
+.card-body {
+  margin: 13px 0 0 10px;
+  color: rgb(31, 31, 31);
+  font-size: 15px;
+}
+
+.footer {
+  float: right;
+  margin: 28px 0 0 18px;
+  font-size: 13px;
+  color: #636363;
+}
+
+.by-name {
+  font-weight: 700;
+}
   .cert-info{
       position: absolute;
       margin-top: -303.5px;
@@ -263,8 +300,8 @@ padding-top: 80px;
    }
    /* From Uiverse.io by alexruix */ 
 .card {
-  width: 190px;
-  height: 254px;
+  width: 300px;
+  height: 299px;
   border-radius: 20px;
   background: #f5f5f5;
   position: relative;
