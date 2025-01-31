@@ -12,7 +12,7 @@ btn.onclick = function(){
     edu.style.display = "block";
 }
 
-//----projects--------
+//----projects----------
 more.onclick = function(){
     home.style.display = "none";
     edu.style.display = "none";
