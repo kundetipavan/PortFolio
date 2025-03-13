@@ -650,21 +650,67 @@ padding-top: 80px;
     background-color:rgba(128, 128, 128, 0.651);
  
  }
- .lo2 button{
-    height:40px ;
-    width: 200px;
-    border-radius: 50px;
-    background-color:rgba(128, 128, 128, 0.651);
- }
+   
   
-  .btn input{
-    height:40px ;
-    width: 200px;
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.699);
-    color: white;
- 
-  }
+ .container {
+    background: #fff;
+    margin: 1px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+}
+h2 {
+    color: #425ad7;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f8f9fa;
+    transition: border 0.3s ease;
+}
+input:focus, textarea:focus {
+    border-color: #4c55c9;
+    outline: none;
+}
+.error {
+    color: red;
+    font-size: 14px;
+    display: none;
+    text-align: left;
+}
+.container button {
+    background: linear-gradient(135deg, #347ce0, #4658fc);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:hover {
+    background: linear-gradient(135deg, #3b79ec, #3165f3);
+}
+.response-message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: green;
+    display: none;
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
    
   
   /*----------educatin details----------*/

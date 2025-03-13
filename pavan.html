@@ -269,43 +269,23 @@
          </div>
       </form>
       </div>
-      <div class="lo2">
-         <button>+919182699147</button><br><br> <br>
-         <div class="lokiii">
-         <form action="">
-            <div class="main">
-            <div class="user-details"> 
-               <div class="lokii1">
-               <div class="input-box">
-                  <span class="details"> NAME</span>
-                  <input type="text" placeholder="Enter your name" required>
-               </div>
-               <div class="input-box">
-                  <span class="details">Phone</span>
-                  <input type="text" placeholder="Enter your Number" required>
-               </div>
-               </div> <br> <br>
-               <div class="lokii1">
-               <div class="input-box">
-                  <span class="details"> Email</span>
-                  <input type="text" placeholder="Enter your Email" required>
-               </div>
-               <div class="input-box">
-                  <span class="details"> Location</span>
-                  <input type="text" placeholder="Enter your location" required>
-               </div>
-               </div> <br> 
-              
-            </div>  <br> <br>
-            </div>
-            <div class="btn">
-            <input type="submit" name="submit" id="">
-            </div>
+         <div class="container">
+          <h2>Contact Us</h2>
+          <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="dff48c4a-ed52-40b0-a753-9a7c23bde36a">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <p class="error" id="nameError">Please enter your name.</p>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <p class="error" id="emailError">Please enter a valid email.</p>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              <p class="error" id="subjectError">Subject cannot be empty.</p>
+              <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+              <p class="error" id="messageError">Message cannot be empty.</p>
+              <button type="submit" id="submitButton">Send Message</button>
           </form>
-          </div>
-      </div>
-      </div>
-   </div>
+          <p id="response" class="response-message">Your message has been sent successfully!</p>
+      </div>      </div>
+    </div>
  </div>  
 </div> 
 </div>
